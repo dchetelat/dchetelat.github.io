@@ -148,6 +148,13 @@ ul.flat li {
   margin-left: 0;
 }
 
+ul.scholar {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  font-size: 14px;
+}
+
 .prevent-collapse {
   min-height: 0.1rem;
 }
@@ -249,10 +256,10 @@ ul {
 
 .header .site-affilation .email {
   /* color: #a00; */
-  font-size: 14px;
+  font-size: 16px;
   display: block;
   font-family: "Ubuntu Mono";
-  font-weight: bolder;
+  /* font-weight: bolder; */
 }
 
 .header .site-affilation .position {
@@ -351,6 +358,10 @@ ul {
   color: #999;
   margin-bottom: 20px;
   letter-spacing: 1px;
+}
+
+.introduction {
+  text-align: justify;
 }
 
 .recent-posts .posts .introduction {
